@@ -6,7 +6,7 @@ shapr3d解锁全部功能
 QuantumultX:
 
 [rewrite_local]
-^https:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+^https:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device url script-response-body https://raw.githubusercontent.com/ShadowCabnient/ShadowRoom/main/shapr3d.js
 
 [mitm]
 hostname = prod.api.shapr3d.com
@@ -15,7 +15,7 @@ hostname = prod.api.shapr3d.com
 Surge4 or Loon:
 
 [Script]
-http-response ^https:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+http-response ^https:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ShadowCabnient/ShadowRoom/main/shapr3d.js
 
 [MITM]
 hostname = prod.api.shapr3d.com
