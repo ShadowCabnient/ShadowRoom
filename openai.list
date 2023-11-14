@@ -17,4 +17,4 @@ HOST-SUFFIX,pay.openai.com,OpenAI
 HOST,openaiapi-site.azureedge.net,OpenAI
 HOST-SUFFIX,chat.openai.com,OpenAI
 HOST-SUFFIX,platform.openai.com,OpenAI
-HOST-SUFFIX,bard.google.com,OpenAI
+
