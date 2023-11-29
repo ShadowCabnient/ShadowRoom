@@ -1,0 +1,9 @@
+#!name=Shapr3d教育版
+
+
+
+[MITM]
+hostname = %APPEND% prod.api.shapr3d.com
+
+[Script]
+shapr3d=type=http-response,pattern=^https://prod.api.shapr3d.com/user-management/profile-with-device requires-body=1,script-path=https://raw.githubusercontent.com/ShadowCabnient/ShadowRoom/main/shapr3d.js
